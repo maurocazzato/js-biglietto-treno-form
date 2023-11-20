@@ -12,10 +12,11 @@
 const buttonGenera = document.getElementById("Genera");
 const Biglietto = document.getElementById("Biglietto");
 
+
 buttonGenera.addEventListener("click",
 
 function() {
-    Biglietto.classList.add("active");
+    Biglietto.classList.add("#biglietto.active");
 
         
     // input Nome user
