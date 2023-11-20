@@ -80,11 +80,12 @@ document.getElementById("codiceCP").innerHTML = codeCP;
 
 // generare ticket
 const buttonGenera = document.getElementById("Genera");
+const ticket = document.getElementById("ticket");
 
 buttonGenera.addEventListener("click",
 
 function() {
-    buttonGenera.style.display = 'active' ;
+    ticket.classList.add("active") ;
 }
 );
 
