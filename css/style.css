@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* debug style */
+img{
+    max-width: 20%;
+    display: flex;
+}
+/*  debug text */
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    margin-bottom: 5px;
+}
+h3{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+}
+td , th{
+    font-family: 'Orbitron', sans-serif;
+}
+ /* container */
+.container{
+    max-width: 100%;
+    background-color: rgba(240,125,0,255);
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+
+    
+}
+.containerdomande{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#ticket{
+    display: none;
+}
+.containerbottoni{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: calc(100%/3);
+    text-align: center;
+}
+.botton{
+    text-align: center;
+    margin-right: 5px;
+}
+.containertop{
+    max-width: 100%;
+}
+table{
+    text-align: center;
+    width: 100%;
+}

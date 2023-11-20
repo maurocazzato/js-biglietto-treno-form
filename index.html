@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biglietto-treno-form</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="containertop">
+        <img src="img/1*SmRBRgq-4X3o0cxqlGod0g.png" alt="">
+        <h1> Calcola il prezzo del tuo biglietto</h1>
+    </section>
+<!-- container domande -->
+    <section class="container">
+        <div class="containerdomande">
+            <div class="box">
+                <h2>Nome e cognome</h2>
+                <input type="text" id="User">
+            </div>
+            <div class="box">
+                <h2>inserisci i km</h2>
+                <input type="number" min="1" id="Kmuser">
+            </div>
+            <div class="box">
+                <h2>inserisci la tua età</h2>
+                <input type="number" min="1"
+                max="100" id="userEta">
+            </div>
+        </div>
+
+        <div class="containerbottoni">
+            <div class="botton">
+                <input type="button" value="Genera">
+            </div>
+            <div class="botton">
+                <input type="button" value="Annulla">
+            </div>
+        </div>
+    </section>
+
+    <section class="containertop">
+        <h1>Il tuo biglietto</h1>
+    </section>
+<!-- biglietto e dati -->
+        <section id="ticket" class="container">
+            <h3>Dettagli del Passeggero</h3>
+            <div class="biglietto">
+                <table>
+                    <thead>
+                        <tr>
+                            <!-- nome del passeggero -->
+                            <th>
+                                Nome del passeggero
+                            </th>
+                            <!-- tipo biglietto -->
+                            <th>
+                                Offerta
+                            </th>
+                            <!-- carrozza -->
+                            <th>
+                                Carrozza
+                            </th>
+                            <!-- codice cp -->
+                            <th>
+                                Codice CP
+                            </th>
+                            <!-- Costo biglietto -->
+                            <th>
+                                Costo biglietto
+                            </th>
+                         </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td id="nomeuser">
+
+                            </td>
+                        
+                       
+                            <td id="offerta">
+                                
+                            </td>
+                        
+                            <td id="carrozza">
+
+                            </td>
+                       
+                            <td id="codiceCP">
+
+                            </td>
+                        
+                            <td id="risultato">
+
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    
+
+
+
+
+
+    <!-- link js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
