@@ -84,7 +84,7 @@ const buttonGenera = document.getElementById("Genera");
 buttonGenera.addEventListener("click",
 
 function() {
-    buttongenera.add("active")
+    buttonGenera.style.display = 'active' ;
 }
-)
+);
 
