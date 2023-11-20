@@ -49,6 +49,9 @@ td , th{
 #Biglietto{
     display: none;
 }
+.active{
+    display:block;
+}
 .containerbottoni{
     padding: 10px;
     display: flex;
