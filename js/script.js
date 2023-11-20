@@ -6,6 +6,18 @@
 // L’output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 // Questo richiederà un minimo di ricerca
 
+
+
+// generare ticket
+const buttonGenera = document.getElementById("Genera");
+const Biglietto = document.getElementById("Biglietto");
+
+buttonGenera.addEventListener("click",
+
+function() {
+    Biglietto.classList.add("active");
+
+    
 // input Nome user
 const inputNome = document.querySelector("#User");
 console.log(inputNome);
@@ -78,14 +90,7 @@ console.log(codeCP.value);
 document.getElementById("codiceCP").innerHTML = codeCP;
 
 
-// generare ticket
-const buttonGenera = document.getElementById("Genera");
-const Biglietto = document.getElementById("Biglietto");
 
-buttonGenera.addEventListener("click",
-
-function() {
-    Biglietto.classList.add("active") ;
 }
 );
 
