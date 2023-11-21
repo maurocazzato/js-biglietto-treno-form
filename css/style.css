@@ -46,17 +46,15 @@ td , th{
     justify-content: center;
 }
 
-#Biglietto{
-    display: none;
+.Biglietto{
     max-width: 100%;
     background-color: rgba(240,125,0,255);
     padding: 50px;
     margin: 50px;
     border-radius: 20px;
 }
-#Biglietto.active{
-    display:block;
-   
+#d-none{
+    display: none; 
 }
 .containerbottoni{
     padding: 10px;

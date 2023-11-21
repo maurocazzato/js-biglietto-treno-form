@@ -10,13 +10,12 @@
 
 // generare ticket
 const buttonGenera = document.getElementById("Genera");
-const Biglietto = document.getElementById("Biglietto");
-
+const Biglietto = document.querySelector(".Biglietto");
 
 buttonGenera.addEventListener("click",
 
 function() {
-    Biglietto.classList.add("#biglietto.active");
+    Biglietto.classList.remove("d-none");
 
         
     // input Nome user
